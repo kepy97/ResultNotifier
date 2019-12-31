@@ -7,21 +7,19 @@ from stat import *
 from mail import sendmail
 
 
-def notifier(result):
+
+def notifier(result,mobile):
     message = result
-    number = '7016141096'
+    number = mobile
     a =1
     while a!=3:    
         username = "8866258602"
         passwd = "27856"
     
         message = "+".join(message.split(' '))
-    
-     
+        
         url ='http://site24.way2sms.com/Login1.action?'
         data = 'username='+username+'&password='+passwd+'&Submit=Sign+in'
-    
-     
     
         cj= cookielib.CookieJar()
         opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cj))
@@ -40,18 +38,8 @@ def notifier(result):
         opener.addheaders=[('Referer', 'http://site25.way2sms.com/sendSMS?Token='+jession_id)]
         try:
             sms_sent_page = opener.open(send_sms_url,send_sms_data)
-        except IOError:
-            print "error"
-            #return()
-        number = '9824940045'
-        send_sms_data = 'ssaction=ss&Token='+jession_id+'&mobile='+number+'&message='+message+'&msgLen=136'
-        try:
-            sms_sent_page = opener.open(send_sms_url,send_sms_data)
+            print "SMS SENT"
         except IOError:
             print "error"
 
-        print "SMS SENT"
-        sendmail(a,result)
-        print "Success" 
-        #return ()
         a = 3
