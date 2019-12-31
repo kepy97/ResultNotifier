@@ -4,13 +4,7 @@ import smtplib
 from bs4 import BeautifulSoup
 from sms import notifier
 import time
-#sms
-#import urllib2
-#import cookielib
-#from getpass import getpass
-#import sys
-#import os
-#from stat import *
+
 a = True
 reg = ''
 while a:
@@ -32,9 +26,9 @@ while a:
     print time.ctime()
     time.sleep(300)
     
-"""   server = smtplib.SMTP('smtp.gmail.com', 587)
+   server = smtplib.SMTP('smtp.gmail.com', 587)
          server.starttls()
-         server.login("hellohi8878@gmail.com", "hellohi8878")
+         server.login("fromEmail@gmail.com", "XXXXXX")
    
          server.sendmail("hellohi8878@gmail.com", "keyul31@gmail.com", msg)
          server.quit()
@@ -45,8 +39,8 @@ while a:
    print "SMS"
  
          if __name__ == "__main__":    
-             username = "8866258602"
-             passwd = "27856"
+             username = "XXXXX"
+             passwd = "XXXXX"
 
              message = "+".join(message.split(' '))
 
@@ -80,4 +74,3 @@ while a:
          print "success" 
        #return ()
        #sms
-"""
