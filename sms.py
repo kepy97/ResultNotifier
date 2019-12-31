@@ -13,8 +13,8 @@ def notifier(result,mobile):
     number = mobile
     a =1
     while a!=3:    
-        username = "8866258602"
-        passwd = "27856"
+        username = "XXXXXXXXXXXXXX"
+        passwd = "XXXXXX"
     
         message = "+".join(message.split(' '))
         
