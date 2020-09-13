@@ -3,7 +3,7 @@
 ## Python
 
 
-I have used different library to implement result notifier algorithm. So, Use the package manager [pip](https://pip.pypa.io/en/stable/) to install dependency.
+I have used a different library to implement result notifier algorithm. So, Use the package manager [pip](https://pip.pypa.io/en/stable/) to install a dependency.
 
 ```bash
 pip install -r requirements.txt
@@ -19,4 +19,4 @@ python Notifier.py
 ```
 You can see an output in the console.
 
-This program scraps GTU result website and fetch all the declared results. After getting the results, it compares with specific keyword and if recently new result is declared then it directly send SMS and email notification to every registered student.
+This program scraps GTU result website and fetches all the declared results. After getting the results, it compares with specific keyword and if the new result is declared then it directly sends SMS and an email notification to every registered student.
