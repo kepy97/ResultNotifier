@@ -1,4 +1,4 @@
-# Result Notifier
+# Result Notifier Bachelor's Side Project
 ## Web Scraping
 ## Python
 
