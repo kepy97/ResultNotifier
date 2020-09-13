@@ -19,4 +19,4 @@ python Notifier.py
 ```
 You can see an output in the console.
 
-This program scraps GTU result website and fetches all the declared results. After getting the results, it compares with specific keyword and if the new result is declared then it directly sends SMS and an email notification to every registered student.
+This program scraps GTU result website and fetches all the declared results. After getting the results, it compares with specific keyword and if the new result is declared then it directly sends **SMS and an email** notification to every registered student.
